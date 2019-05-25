@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.qa.MyStore.Test_Base.Test_Base;
 
 public class Home_Page extends Test_Base{
-
+//comment
 	@FindBy (xpath="//a[contains(text(),'Sign in')]") WebElement login_link;
 	
 	public Home_Page() {
